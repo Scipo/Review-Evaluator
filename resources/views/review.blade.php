@@ -4,7 +4,7 @@
            <div class="row move-down-row">
                <div class="col-lg-6 moveleft-cotact">
                    <h4 class="Title1">Send us a review</h4>
-                   <form method="POST" action="{{ url('/reviews/send') }}" class="form-horizontal">
+                   <form method="POST" action="{{ url('/review/send') }}" class="form-horizontal">
                        {{ csrf_field() }}
                        <div class="form-group contentContactForm">
                            <div class="col-md-5">
