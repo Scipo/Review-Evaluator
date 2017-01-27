@@ -3,7 +3,7 @@
        <div class="container">
            <div class="row move-down-row">
                <div class="col-lg-6 moveleft-cotact">
-                   <h4 class="Title1">Send us review</h4>
+                   <h4 class="Title1">Send us a review</h4>
                    <form method="POST" action="{{ url('/reviews/send') }}" class="form-horizontal">
                        {{ csrf_field() }}
                        <div class="form-group contentContactForm">
