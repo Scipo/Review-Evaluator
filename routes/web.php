@@ -16,3 +16,4 @@
 });*/
 
 Route::get('/','StaticController@review');
+Route::post('/reviews/send', 'ReviewController@send');
