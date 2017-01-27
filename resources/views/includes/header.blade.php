@@ -11,7 +11,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="{{ URL::to('/')}}">HOME</a></li>
                 <li><a href="{{ URL::to('/review')}}">REVIEWS</a></li>
-                <li><a href="#NEWS">STATISTICS</a></li>
+                <li><a href="{{ URL::to('/statistic')}}">STATISTICS</a></li>
              </ul>
         </div>
     </div>

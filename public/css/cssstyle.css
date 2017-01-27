@@ -105,8 +105,14 @@ footer{
 }
 
 .moveleft-cotact{
-    left: 400px;
-    padding-top: 40px;
+    left: 100px;
+    padding-top: 60px;
+}
+.move-down{
+    padding-top: 70px;
+}
+.move-down-row{
+    padding-bottom: 50px;
 }
 .contentContactForm {
     font-size: 17px;

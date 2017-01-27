@@ -11,4 +11,7 @@ class StaticController extends Controller
     public function home(Request $request){
         return view('home');
     }
+    public function statistic(Request $request){
+        return view('statistic');
+    }
 }
