@@ -29,7 +29,7 @@
             </div>
             <div class="form-group">
                 <div class="col-md-5" id="submitButton">
-                    <button type="submit" class="contactButon">Send<i class="fa fa-chevron-circle-right" id="fa-fa-chevron-right"></i></button>
+                    <button type="submit" class="btn btn-success">Send</button>
                 </div>
             </div>
         </form>

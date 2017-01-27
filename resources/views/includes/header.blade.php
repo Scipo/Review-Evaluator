@@ -9,14 +9,9 @@
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#NEWS">NEWS</a></li>
-                <li><a href="#tour">REVIEWS</a></li>
-                <li class="dropdown">
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-                        <span class="caret"></span>
-                    </a>
-                </li>
+                <li><a href="{{ URL::to('/')}}">HOME</a></li>
+                <li><a href="#NEWS">STATISTICS</a></li>
+                <li><a href="{{ URL::to('/review')}}">REVIEWS</a></li>
              </ul>
         </div>
     </div>

@@ -15,4 +15,5 @@
     return view('welcome');
 });*/
 
-Route::get('/','StaticController@review');
+Route::get('/','StaticController@home');
+Route::get('/review','StaticController@review');

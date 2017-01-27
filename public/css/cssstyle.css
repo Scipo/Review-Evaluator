@@ -29,11 +29,7 @@ body{
 #BladeFooter li{
     list-style-type: none;
 }
-#BladeFooter a{
-    font-size: 12px;
-    font-family: "Arial";
-    color: rgb(109, 110, 113);
-}
+
 
 #e-mail {
     font-size: 12px;
@@ -50,18 +46,19 @@ body{
 
 }
 .footer-move-left{
-    left: 200px;
+    text-align: center;
+
 }
-#footer_sin{
-    font-size: 13px;
+.footer-move-left p{
+    font-size: 20px;
     font-family: "Arial";
-    color: #0d3625;
-    line-height: 2.07;
-    -moz-transform: matrix( 0.99992415010354,0,0,1,0,0);
-    -webkit-transform: matrix( 0.99992415010354,0,0,1,0,0);
-    -ms-transform: matrix( 0.99992415010354,0,0,1,0,0);
-    z-index: 17;
+    color: whitesmoke;
 }
+footer{
+    background-color: #6b9dbb;
+
+}
+
 #footer_span{
     color: rgb(121, 77, 159);
     font-weight: bold;
@@ -91,24 +88,18 @@ body{
     left: 200px;
 }
 .contactButon{
-    font-size: 10px;
+    font-size: 18px;
     border: none;
     outline:none;
     box-shadow: none;
     text-decoration: none;
-    background-color: transparent;
+    background-color: green;
     cursor: pointer;
     font-family: "Times New Roman";
-    font-style: italic;
-    color: rgb(121, 77, 159);
-    text-transform: uppercase;
+    color: white;
     display: inline-block;
     line-height: 1.2;
     text-align: right;
-    left: 18px;
-    -moz-transform: matrix( 1.83520509777935,0,0,1.82609664835602,0,0);
-    -webkit-transform: matrix( 1.83520509777935,0,0,1.82609664835602,0,0);
-    -ms-transform: matrix( 1.83520509777935,0,0,1.82609664835602,0,0);
     position: relative;
 
 }
@@ -160,4 +151,9 @@ body{
 }
 .contactrightspan{
     text-align: right;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
 }
