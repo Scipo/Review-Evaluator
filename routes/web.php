@@ -14,6 +14,6 @@
 /*Route::get('/', function () {
     return view('welcome');
 });*/
-
-Route::get('/','StaticController@review');
-Route::post('/reviews/send', 'ReviewController@send');
+Route::get('/','StaticController@home');
+Route::get('/review','StaticController@review');
+Route::post('/review/send', 'ReviewController@send');

@@ -15,7 +15,7 @@ class ReviewController extends Controller
 
     	$product->save();
 
-    	$productId = $product->id;	// use this shit in the py script
+    	$productId = $product->id;	// use this in the py script
     	// http://stackoverflow.com/questions/19781768/executing-python-script-with-php-variables
 
     	return redirect('/');
