@@ -17,9 +17,9 @@ class CreateProductsTable extends Migration
             $table->increments('id');
             $table->timestamps();
 
-            $table->string('name')->collate('utf8_bin')->nullable();
+            $table->text('name')->collate('utf8_bin')->nullable();
             $table->integer('rating')->nullable()->default(null);
-            $table->string('review')->collate('utf8_bin')->nullable()->collate('utf8_bin');
+            $table->text('review')->collate('utf8_bin')->nullable()->collate('utf8_bin');
         });
     }
 

@@ -13,10 +13,17 @@
                        </div>
                        <div class="form-group contentContactForm">
                            <div class="col-md-9">
-                    <textarea class="form-control" id="message" name="message" cols="10" rows="15" placeholder="Съобщение*">
+                    <textarea class="form-control" id="message" name="message" cols="10" rows="15" placeholder="Message*">
 
                     </textarea>
                            </div>
+                       </div>
+                       <div class="form-group contentContactForm">
+                           <input type="radio" name="rating" value="1"> 1
+                           <input type="radio" name="rating" value="2"> 2
+                           <input type="radio" name="rating" value="3"> 3
+                           <input type="radio" name="rating" value="4"> 4
+                           <input type="radio" name="rating" value="5"> 5
                        </div>
                        <div class="form-group">
                            <div class="col-md-5" id="submitButton">
